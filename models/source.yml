@@ -4,7 +4,7 @@ sources:
   - name: jaffle_shop
     description: This is the replica of the postgres database.
     database: raw
-    schema: jaffle-shop
+    schema: jaffle_shop
     tables:
         - name: customers
           description: one record per customer.
