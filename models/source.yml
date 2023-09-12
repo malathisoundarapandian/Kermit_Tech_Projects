@@ -16,7 +16,7 @@ sources:
             error_after: {count: 24, period: hour}
 
   - name: stripe
-    decription: This is the replica of the postgres database.
+    description: This is the replica of the postgres database.
     database: raw
     schema: stripe
     tables:
