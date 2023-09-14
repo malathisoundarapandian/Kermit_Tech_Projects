@@ -47,4 +47,4 @@ final as (
 
 )
 
-select * from final
+select * from final {{ limitrows('most_recent_order_date') }}

@@ -31,4 +31,4 @@ final as
         order_payments on orders.order_id=order_payments.order_id
 )
 
-select * from final
+select * from final {{ limit_data('order_date', 2) }}
